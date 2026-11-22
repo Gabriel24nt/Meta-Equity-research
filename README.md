@@ -1,51 +1,89 @@
+
 # META Equity Research
 
-**Financial Analysis | Financial Modeling | DCF Valuation | Trading Comparables**
+**Equity Research | Financial Modeling | Company Valuation**
 
-A Python and Streamlit research terminal for an educational equity research project on Meta Platforms, Inc. (NASDAQ: META).
+An independent equity research project focused on Meta Platforms, Inc. (NASDAQ: META), combining financial statement analysis, valuation modeling, and investment research.
 
-## Features
+## 🚀 Live Application
 
-- Company overview and historical share-price chart
-- Historical income statement, balance sheet and cash-flow statement (when available from the data provider)
-- Key market metrics
-- Editable five-year simplified DCF model
-- Illustrative trading-comparables table
-- Investment thesis and research-notes template
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Launch%20App-red?logo=streamlit)](https://meta-equity-research-app.streamlit.app/)
 
-## Run locally
+[**Open META Equity Research Application →**](https://meta-equity-research-app.streamlit.app/)
 
-1. Install Python 3.10 or later.
-2. Clone or download this repository.
-3. Create and activate a virtual environment.
-4. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-5. Start the application:
-   ```bash
-   streamlit run app.py
-   ```
+## 📊 Project Overview
 
-## Important data and methodology notes
+This project provides an interactive equity research environment to analyze Meta Platforms through:
 
-- Market and financial data are retrieved from Yahoo Finance through `yfinance`. This is a convenient data source for a student project, not a substitute for official filings.
-- Verify reported financial figures against Meta's annual reports, quarterly reports and SEC filings before using them in a research report.
-- The DCF is a simplified unlevered free-cash-flow model. It uses editable assumptions and is not a fully integrated three-statement forecast.
-- Comparable companies are illustrative. Explain differences in business mix, growth, margins and capital intensity before drawing conclusions.
-- Do not treat the generated valuation as investment advice or a professional investment recommendation.
+- Company overview and stock market data
+- Historical financial statements
+- Discounted Cash Flow (DCF) valuation
+- Trading comparables analysis
+- Investment thesis development
+- Excel export of financial analysis
 
-## Suggested project extensions
+## 🧮 Valuation Framework
 
-- Build a fully integrated three-statement model.
-- Add historical financial-ratio analysis and common-size statements.
-- Add DCF sensitivity tables for WACC and terminal growth.
-- Add precedent transactions analysis.
-- Export model outputs to Excel.
-- Add a documented investment-research report with cited sources.
+The DCF model includes adjustable assumptions:
 
-## Author
+- Revenue growth
+- Operating margins
+- Tax rate
+- Weighted Average Cost of Capital (WACC)
+- Terminal growth rate
+- Capital expenditures
+- Depreciation and amortization
+- Changes in net working capital
 
-**Alan Gabriel Nte**  
-Burgundy School of Business — Master in Management  
-[LinkedIn](https://www.linkedin.com/in/alan-gabriel-nte-77b510388/) | [GitHub](https://github.com/Gabriel24nt)
+The application calculates estimated enterprise value, equity value, implied share price and upside/downside.
+
+## 🛠️ Technology Stack
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Plotly
+- yfinance
+- OpenPyXL
+
+## 📁 Project Structure
+
+```text
+META-Equity-Research/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── data/
+└── reports/
+```
+
+## 📈 Research Objectives
+
+- Develop practical equity research skills.
+- Analyze corporate financial performance.
+- Build and interpret valuation models.
+- Understand public equity markets.
+- Translate financial information into investment insights.
+
+## ⚠️ Disclaimer
+
+This project is an independent educational research initiative and does not constitute investment advice.
+
+Market data may be incomplete or delayed. Financial information and valuation assumptions should be verified against official company filings.
+
+## 👤 Author
+
+**Alan Gabriel Nte**
+
+Master in Management – Finance & Management Control  
+Burgundy School of Business
+
+- [LinkedIn](https://www.linkedin.com/in/alan-gabriel-nte-77b510388/)
+- [GitHub](https://github.com/Gabriel24nt)
+
+---
+
+**Live Demo:** https://meta-equity-research-app.streamlit.app/
