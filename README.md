@@ -1,114 +1,51 @@
+# META Equity Research
 
-# META EQUITY RESEARCH
-### Financial Analysis | Equity Valuation | Investment Research
+**Financial Analysis | Financial Modeling | DCF Valuation | Trading Comparables**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Project-Equity_Research-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Company-Meta_Platforms-0668E1?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Focus-Financial_Valuation-success?style=for-the-badge"/>
-</p>
+A Python and Streamlit research terminal for an educational equity research project on Meta Platforms, Inc. (NASDAQ: META).
 
-## 🇬🇧 Project Overview
+## Features
 
-This project aims to develop a comprehensive equity research report and financial valuation of Meta Platforms, Inc. (NASDAQ: META).
+- Company overview and historical share-price chart
+- Historical income statement, balance sheet and cash-flow statement (when available from the data provider)
+- Key market metrics
+- Editable five-year simplified DCF model
+- Illustrative trading-comparables table
+- Investment thesis and research-notes template
 
-The analysis combines financial statement analysis, historical performance assessment, financial forecasting, discounted cash flow valuation and comparable company analysis.
+## Run locally
 
-The objective is to evaluate the company's financial position, growth prospects, profitability and intrinsic value.
+1. Install Python 3.10 or later.
+2. Clone or download this repository.
+3. Create and activate a virtual environment.
+4. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+5. Start the application:
+   ```bash
+   streamlit run app.py
+   ```
 
-## 🇫🇷 Présentation du projet
+## Important data and methodology notes
 
-Ce projet consiste à réaliser une analyse financière approfondie et une valorisation de Meta Platforms, Inc. (NASDAQ: META).
+- Market and financial data are retrieved from Yahoo Finance through `yfinance`. This is a convenient data source for a student project, not a substitute for official filings.
+- Verify reported financial figures against Meta's annual reports, quarterly reports and SEC filings before using them in a research report.
+- The DCF is a simplified unlevered free-cash-flow model. It uses editable assumptions and is not a fully integrated three-statement forecast.
+- Comparable companies are illustrative. Explain differences in business mix, growth, margins and capital intensity before drawing conclusions.
+- Do not treat the generated valuation as investment advice or a professional investment recommendation.
 
-Il combine l'analyse des états financiers, l'étude des performances historiques, la modélisation financière, la méthode DCF et l'analyse des sociétés comparables.
+## Suggested project extensions
 
-L'objectif est d'évaluer la situation financière de l'entreprise, ses perspectives de croissance, sa rentabilité et sa valeur intrinsèque.
+- Build a fully integrated three-statement model.
+- Add historical financial-ratio analysis and common-size statements.
+- Add DCF sensitivity tables for WACC and terminal growth.
+- Add precedent transactions analysis.
+- Export model outputs to Excel.
+- Add a documented investment-research report with cited sources.
 
----
+## Author
 
-## 1. Research Scope
-
-- Business Model Analysis
-- Industry & Competitive Analysis
-- Historical Financial Analysis
-- Revenue & Profitability Analysis
-- Financial Forecasting
-- Discounted Cash Flow (DCF)
-- Comparable Companies Valuation
-- Investment Thesis
-
-## 2. Financial Modeling
-
-The financial model will include:
-
-- Historical Income Statement
-- Historical Balance Sheet
-- Historical Cash Flow Statement
-- Revenue Forecast
-- Operating Expenses Forecast
-- Free Cash Flow Forecast
-- WACC Calculation
-- Terminal Value
-- Enterprise Value
-- Equity Value
-- Implied Share Price
-
-## 3. Valuation Methodologies
-
-**Discounted Cash Flow (DCF)**
-
-Intrinsic valuation based on projected free cash flows.
-
-**Comparable Company Analysis**
-
-Relative valuation using financial multiples such as:
-- EV/EBITDA
-- EV/Revenue
-- P/E
-
-## 4. Technologies & Tools
-
-- Python
-- Pandas
-- NumPy
-- Excel
-- Matplotlib
-- Streamlit
-- Financial Data Analysis
-
-## 5. Project Structure
-
-The project will be organized into:
-
-- data/
-- notebooks/
-- models/
-- reports/
-- src/
-- dashboard/
-
-## 6. Expected Deliverables
-
-- Financial Analysis Report
-- Historical Financial Model
-- DCF Valuation Model
-- Comparable Companies Analysis
-- Investment Research Presentation
-- Interactive Financial Dashboard
-
-## 7. Author
-
-**Alan Gabriel Nte**
-
-Master in Management – Burgundy School of Business
-
-Focus: Corporate Finance & Management Control.
-
-LinkedIn: https://www.linkedin.com/in/alan-gabriel-nte-77b510388/
-
-GitHub: https://github.com/Gabriel24nt
-
----
-
-*Research. Valuation. Investment Decisions.*
-
+**Alan Gabriel Nte**  
+Burgundy School of Business — Master in Management  
+[LinkedIn](https://www.linkedin.com/in/alan-gabriel-nte-77b510388/) | [GitHub](https://github.com/Gabriel24nt)
